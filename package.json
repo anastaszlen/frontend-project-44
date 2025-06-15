@@ -8,7 +8,7 @@
      "start": "node bin/brain-games.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/anastaszlen/frontend-project-44.git"
   },
   "keywords": [],
