@@ -8,9 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/brain-games.js"
   },
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  },
+ "bin": {
+  "brain-games": "bin/brain-games.js",
+  "brain-even": "bin/brain-even.js"
+},
   "repository": {
     "url": "git+https://github.com/anastaszlen/frontend-project-44.git"
   },
