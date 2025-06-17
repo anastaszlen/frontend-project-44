@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
-import playCalcGame from '../src/games/calc.js';
+import playGame from '../src/index.js';
+import getCalcRound from '../src/games/calc.js';
 
-playCalcGame();
+const description = 'What is the result of the expression?';
+
+playGame(description, getCalcRound);

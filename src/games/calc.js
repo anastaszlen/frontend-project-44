@@ -12,8 +12,8 @@ const calculate = (a, b, operator) => {
 };
 
 export default function getCalcRound() {
-  const num1 = getRandomInt(1, 20);
-  const num2 = getRandomInt(1, 20);
+  const num1 = getRandomInt(1, 100);
+  const num2 = getRandomInt(1, 100);
   const operator = operators[getRandomInt(0, operators.length - 1)];
   const question = `${num1} ${operator} ${num2}`;
   const answer = calculate(num1, num2, operator);
